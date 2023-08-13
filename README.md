@@ -1,1 +1,0 @@
-# quipe-npm
