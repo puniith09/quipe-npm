@@ -1,0 +1,33 @@
+{
+  "name": "decentralized-identity",
+  "version": "1.0.0",
+  "description": "An SDK for managing user identity and sessions using blockchain wallets via a NEAR protocol smart contract.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/decentralized-identity.git"
+  },
+  "keywords": [
+    "NEAR",
+    "blockchain",
+    "identity",
+    "sessions",
+    "smart contract",
+    "MetaMask"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/decentralized-identity/issues"
+  },
+  "homepage": "https://github.com/yourusername/decentralized-identity#readme",
+  "dependencies": {
+    "near-api-js": "^0.36.4"
+  },
+  "devDependencies": {
+    "jest": "^27.2.0"
+  }
+}
