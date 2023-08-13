@@ -1,0 +1,16 @@
+[package]
+name = "session_management"
+version = "0.1.0"
+authors = ["Your Name <your.email@example.com>"]
+edition = "2018"
+
+[dependencies]
+near_sdk = "3.1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+[dev-dependencies]
+near_sdk_sim = "3.1.0"
+
+[[bin]]
+name = "session_management"
+path = "src/lib.rs"
